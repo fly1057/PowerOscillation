@@ -124,6 +124,7 @@ temp_Eqp = Eqp[window_min:window_max]
 temp_Δw = Δw[window_min:window_max]
 temp_Pe = Pe[window_min:window_max]
 temp_t = t[window_min:window_max]
+temp_Id = Id[window_min:window_max]
 N= len(temp_Eqp)
 
 #FFT来滤波
@@ -208,7 +209,7 @@ plt.subplot(333)
 plt.plot(t,δ_degree,'r-.',t,θ_degree,'b')
 plt.legend(["δ","θ"])
 plt.xlabel("t (s)")
-plt.ylabel("δ,θ (p.u.)")
+plt.ylabel("δ,θ (degree)")
 plt.subplot(334)
 plt.plot(t,np.abs(Eqp),'r-.',t,Δw,"b")
 plt.legend(["Eqp ","Δω"])
