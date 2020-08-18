@@ -37,6 +37,7 @@ P为极对数
 Tj = J*wm0*wm0/SN
 P = T*w
 
+
 J dwm/dt = Tm - Te
 两边乘以wm0*wm0/(SN*wm0)
 wm0*wm0/(SN*wm0)*J*dwm/dt = wm0*wm0/(SN*wm0)*(Tm - Te)
